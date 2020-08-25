@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8983337724F39611007AD03F /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8983337624F39611007AD03F /* HistoryCell.swift */; };
+		8983337924F39930007AD03F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8983337824F39930007AD03F /* HistoryViewController.swift */; };
+		D4ABA4E524F4194A00E08D59 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ABA4E424F4194A00E08D59 /* LoginViewController.swift */; };
+		D4EFC15924F2D04600B42429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFC15824F2D04600B42429 /* AppDelegate.swift */; };
+		D4EFC15B24F2D04600B42429 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFC15A24F2D04600B42429 /* SceneDelegate.swift */; };
+		D4EFC15D24F2D04700B42429 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFC15C24F2D04700B42429 /* ViewController.swift */; };
+		D4EFC16024F2D04700B42429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EFC15E24F2D04700B42429 /* Main.storyboard */; };
+		D4EFC16324F2D04700B42429 /* FlytbaseTaskApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4EFC16124F2D04700B42429 /* FlytbaseTaskApp.xcdatamodeld */; };
+		D4EFC16524F2D04900B42429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EFC16424F2D04900B42429 /* Assets.xcassets */; };
+		D4EFC16824F2D04900B42429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EFC16624F2D04900B42429 /* LaunchScreen.storyboard */; };
+		D4EFC17324F2D04900B42429 /* FlytbaseTaskAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFC17224F2D04900B42429 /* FlytbaseTaskAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4EFC16F24F2D04900B42429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4EFC14D24F2D04600B42429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4EFC15424F2D04600B42429;
+			remoteInfo = FlytbaseTaskApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8983337624F39611007AD03F /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		8983337824F39930007AD03F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		D4ABA4E424F4194A00E08D59 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D4EFC15524F2D04600B42429 /* FlytbaseTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlytbaseTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EFC15824F2D04600B42429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4EFC15A24F2D04600B42429 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4EFC15C24F2D04700B42429 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4EFC15F24F2D04700B42429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4EFC16224F2D04700B42429 /* FlytbaseTaskApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlytbaseTaskApp.xcdatamodel; sourceTree = "<group>"; };
+		D4EFC16424F2D04900B42429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4EFC16724F2D04900B42429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4EFC16924F2D04900B42429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EFC16E24F2D04900B42429 /* FlytbaseTaskAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlytbaseTaskAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EFC17224F2D04900B42429 /* FlytbaseTaskAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlytbaseTaskAppTests.swift; sourceTree = "<group>"; };
+		D4EFC17424F2D04900B42429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4EFC15224F2D04600B42429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EFC16B24F2D04900B42429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8983337A24F3A1F5007AD03F /* History */ = {
+			isa = PBXGroup;
+			children = (
+				8983337824F39930007AD03F /* HistoryViewController.swift */,
+				8983337624F39611007AD03F /* HistoryCell.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		D4ABA48F24F3AC8200E08D59 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFC15C24F2D04700B42429 /* ViewController.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		D4ABA4E324F4189100E08D59 /*  Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				D4ABA4E424F4194A00E08D59 /* LoginViewController.swift */,
+			);
+			path = " Authentication";
+			sourceTree = "<group>";
+		};
+		D4EFC14C24F2D04600B42429 = {
+			isa = PBXGroup;
+			children = (
+				D4EFC15724F2D04600B42429 /* FlytbaseTaskApp */,
+				D4EFC17124F2D04900B42429 /* FlytbaseTaskAppTests */,
+				D4EFC15624F2D04600B42429 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4EFC15624F2D04600B42429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFC15524F2D04600B42429 /* FlytbaseTaskApp.app */,
+				D4EFC16E24F2D04900B42429 /* FlytbaseTaskAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4EFC15724F2D04600B42429 /* FlytbaseTaskApp */ = {
+			isa = PBXGroup;
+			children = (
+				D4ABA4E324F4189100E08D59 /*  Authentication */,
+				D4ABA48F24F3AC8200E08D59 /* Calculator */,
+				8983337A24F3A1F5007AD03F /* History */,
+				D4EFC15824F2D04600B42429 /* AppDelegate.swift */,
+				D4EFC15A24F2D04600B42429 /* SceneDelegate.swift */,
+				D4EFC15E24F2D04700B42429 /* Main.storyboard */,
+				D4EFC16424F2D04900B42429 /* Assets.xcassets */,
+				D4EFC16624F2D04900B42429 /* LaunchScreen.storyboard */,
+				D4EFC16924F2D04900B42429 /* Info.plist */,
+				D4EFC16124F2D04700B42429 /* FlytbaseTaskApp.xcdatamodeld */,
+			);
+			path = FlytbaseTaskApp;
+			sourceTree = "<group>";
+		};
+		D4EFC17124F2D04900B42429 /* FlytbaseTaskAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFC17224F2D04900B42429 /* FlytbaseTaskAppTests.swift */,
+				D4EFC17424F2D04900B42429 /* Info.plist */,
+			);
+			path = FlytbaseTaskAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4EFC15424F2D04600B42429 /* FlytbaseTaskApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EFC17724F2D04900B42429 /* Build configuration list for PBXNativeTarget "FlytbaseTaskApp" */;
+			buildPhases = (
+				D4EFC15124F2D04600B42429 /* Sources */,
+				D4EFC15224F2D04600B42429 /* Frameworks */,
+				D4EFC15324F2D04600B42429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlytbaseTaskApp;
+			productName = FlytbaseTaskApp;
+			productReference = D4EFC15524F2D04600B42429 /* FlytbaseTaskApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4EFC16D24F2D04900B42429 /* FlytbaseTaskAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EFC17A24F2D04900B42429 /* Build configuration list for PBXNativeTarget "FlytbaseTaskAppTests" */;
+			buildPhases = (
+				D4EFC16A24F2D04900B42429 /* Sources */,
+				D4EFC16B24F2D04900B42429 /* Frameworks */,
+				D4EFC16C24F2D04900B42429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4EFC17024F2D04900B42429 /* PBXTargetDependency */,
+			);
+			name = FlytbaseTaskAppTests;
+			productName = FlytbaseTaskAppTests;
+			productReference = D4EFC16E24F2D04900B42429 /* FlytbaseTaskAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4EFC14D24F2D04600B42429 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = abc;
+				TargetAttributes = {
+					D4EFC15424F2D04600B42429 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					D4EFC16D24F2D04900B42429 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D4EFC15424F2D04600B42429;
+					};
+				};
+			};
+			buildConfigurationList = D4EFC15024F2D04600B42429 /* Build configuration list for PBXProject "FlytbaseTaskApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4EFC14C24F2D04600B42429;
+			productRefGroup = D4EFC15624F2D04600B42429 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4EFC15424F2D04600B42429 /* FlytbaseTaskApp */,
+				D4EFC16D24F2D04900B42429 /* FlytbaseTaskAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4EFC15324F2D04600B42429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EFC16824F2D04900B42429 /* LaunchScreen.storyboard in Resources */,
+				D4EFC16524F2D04900B42429 /* Assets.xcassets in Resources */,
+				D4EFC16024F2D04700B42429 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EFC16C24F2D04900B42429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4EFC15124F2D04600B42429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ABA4E524F4194A00E08D59 /* LoginViewController.swift in Sources */,
+				D4EFC15D24F2D04700B42429 /* ViewController.swift in Sources */,
+				D4EFC15924F2D04600B42429 /* AppDelegate.swift in Sources */,
+				D4EFC16324F2D04700B42429 /* FlytbaseTaskApp.xcdatamodeld in Sources */,
+				8983337924F39930007AD03F /* HistoryViewController.swift in Sources */,
+				D4EFC15B24F2D04600B42429 /* SceneDelegate.swift in Sources */,
+				8983337724F39611007AD03F /* HistoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EFC16A24F2D04900B42429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EFC17324F2D04900B42429 /* FlytbaseTaskAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4EFC17024F2D04900B42429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4EFC15424F2D04600B42429 /* FlytbaseTaskApp */;
+			targetProxy = D4EFC16F24F2D04900B42429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4EFC15E24F2D04700B42429 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EFC15F24F2D04700B42429 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4EFC16624F2D04900B42429 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EFC16724F2D04900B42429 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4EFC17524F2D04900B42429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4EFC17624F2D04900B42429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4EFC17824F2D04900B42429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FlytbaseTaskApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.FlytbaseTaskApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4EFC17924F2D04900B42429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FlytbaseTaskApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.FlytbaseTaskApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4EFC17B24F2D04900B42429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlytbaseTaskAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.FlytbaseTaskAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlytbaseTaskApp.app/FlytbaseTaskApp";
+			};
+			name = Debug;
+		};
+		D4EFC17C24F2D04900B42429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlytbaseTaskAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.FlytbaseTaskAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlytbaseTaskApp.app/FlytbaseTaskApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4EFC15024F2D04600B42429 /* Build configuration list for PBXProject "FlytbaseTaskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EFC17524F2D04900B42429 /* Debug */,
+				D4EFC17624F2D04900B42429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EFC17724F2D04900B42429 /* Build configuration list for PBXNativeTarget "FlytbaseTaskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EFC17824F2D04900B42429 /* Debug */,
+				D4EFC17924F2D04900B42429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EFC17A24F2D04900B42429 /* Build configuration list for PBXNativeTarget "FlytbaseTaskAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EFC17B24F2D04900B42429 /* Debug */,
+				D4EFC17C24F2D04900B42429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4EFC16124F2D04700B42429 /* FlytbaseTaskApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4EFC16224F2D04700B42429 /* FlytbaseTaskApp.xcdatamodel */,
+			);
+			currentVersion = D4EFC16224F2D04700B42429 /* FlytbaseTaskApp.xcdatamodel */;
+			path = FlytbaseTaskApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4EFC14D24F2D04600B42429 /* Project object */;
+}
